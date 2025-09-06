@@ -49,6 +49,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        conn = GetComponent<CharactorMovement>();
         rb = GetComponent<Rigidbody2D>();
         footEmissions = footsteps.emission;
 
